@@ -167,7 +167,7 @@ p {
 }
 
 .stat {
-  /* background-color: antiquewhite; */
+  /* background-color: #f7f9d5; */
   text-shadow: 0 .2em 0.2em rgba(0,0,0,0.65);
 }
 
@@ -296,5 +296,10 @@ p {
 
   .top {
     width: 1408px;
+  }
+
+  .pokemon-ad-banner, .exeggutor {
+    display: none;
+
   }
 }
