@@ -25,7 +25,7 @@ The app will consist of a single screen with a pokemon-themed background, a main
 Possible filters will include which pokemon generations to display, and also filters based on pokemon types.
 In the main section, users can mouse over a pokemon image(bubble) to display additional information. 
 
-![Pokemon wireframe](https://github.com/marshallycheng/Pokemon-LetsGoData/blob/master/pokemon-js-wireframe.png)
+![Pokemon wireframe](https://github.com/marshallycheng/PokemonLetsGoData/blob/master/pokemon-js-wireframe.png)
 
 ### Architecture and Technologies
 
