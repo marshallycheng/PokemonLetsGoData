@@ -82,7 +82,7 @@
       // separate function so can call it again with new datasets. Avoids hassle of updating dataset.
       function spawnPokemonBubbles(type = "all"){
         
-        d3.csv("/gen-1-pokemon-stats.csv", function (data) {
+        d3.csv("javascripts/gen-1-pokemon-stats.csv", function (data) {
           // Typecasting strings into numbers for later use.
           data.forEach(d => {
             // lowercase name to match image names.
