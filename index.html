@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <title>PokemonLetsGoData</title>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js"></script>
@@ -14,7 +14,24 @@
     <div class="project">
       <div class="top">
         <div class="image-holder">
-          <div class="about-modal-link">About</div>
+          <div class="about-modal-link" onclick="document.getElementById('modal').style.display='block'">About</div>
+          <div id="modal" class="about-modal">
+            <div class="modal-content">
+              <div class="modal-container">
+                <span onclick="document.getElementById('modal').style.display='none'" class="modal-button">&times;</span>
+                <p> Welcome to PokemonLetsGoData!</p>
+                <p> This is a data visualization of Generation 1 Pokemon created with the D3 library. 
+                    Mouse over a Pokemon to get a closer look at its stats. The colored buttons on the left can filter 
+                    the Pokemon based on their types. The gray buttons change the sizes of the Pokemon based on their corresponding stats.
+                    That's pretty much all there is, so please enjoy! 
+                </p>
+                <p>
+                  Made by Marshall Cheng
+                </p>
+              </div>
+
+            </div>
+          </div>
           <a href="#">Portfolio</a>
           <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2000px-International_Pok%C3%A9mon_logo.svg.png"
           />
@@ -49,9 +66,10 @@
             <button class="stat" id="special" value="Special">Special</button>
           </div>
         </div>
-      
-        <div class="center graph">
-      
+        <div class="center-background">
+          <div class="center graph">
+        
+          </div>
         </div>
       
       </div>
@@ -164,6 +182,7 @@
               return radiusScale(d.Attack);
             })
             .attr("fill", function (d) {
+              console.log(d)
               return `url(#${d.Pokemon})`;
             });
           // only update position 20 times. Otherwise, we'll lag when we have all pokemon on screen

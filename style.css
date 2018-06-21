@@ -13,6 +13,7 @@ a, .about-modal-link {
   color: white;
   line-height: 115px;
   text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
 }
 
 .pokemon-ad-banner {
@@ -21,6 +22,7 @@ a, .about-modal-link {
 }
 
 .exeggutor {
+  object-fit: none;
   width: 100%;
   height: 100%;
 }
@@ -90,6 +92,54 @@ a {
   flex-direction: row;
 }
 
+#modal {
+  display: none;
+  position: absolute;
+  height: 500px;
+  width: 800px;
+  top: 24%;
+  left: 32%;
+  background: url('https://wallpaper-house.com/data/out/6/wallpaper2you_127747.png');
+  background-size: contain;
+  border: 2px solid gray;
+  border-radius: 8px;
+}
+
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  color: white;
+  font-family: 'Press Start 2P';
+}
+
+.modal-container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 0 .2em 0.2em rgba(0,0,0,0.65);
+  line-height: 2;
+}
+
+.center-background {
+  background: url('https://orig14.deviantart.net/ecb9/f/2016/183/e/3/custom_box_background__rain_by_tree_kangaroo-da8gwgt.jpg');
+  background-size: cover;
+}
+
+.modal-button {
+  font-size: 24px;
+  display: block;
+  align-self: flex-end;
+  padding-right: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
 .type, .stat {
   display: inline-block;
   overflow: hidden;
@@ -116,6 +166,7 @@ a {
 
 .stat {
   /* background-color: antiquewhite; */
+  text-shadow: 0 .2em 0.2em rgba(0,0,0,0.65);
 }
 
 #all {
@@ -182,7 +233,7 @@ a {
   background-color: #f5ca66;
 }
 
-
+.graph {}
 
 
 .svgContainer{
@@ -201,7 +252,6 @@ a {
   border-radius: 4px;
   font-family: 'Press Start 2P';
   text-align: center;
-  line-height: 
 }
 
 .pokedex-sprite {
