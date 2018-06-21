@@ -1,0 +1,248 @@
+body {
+  background: url("https://www.spriters-resource.com/resources/sheet_icons/45/48041.png");
+  /* background-size: cover; */
+  /* background-repeat: repeat-x; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-position: top -50px left 0px;
+}
+
+a, .about-modal-link {
+  font-family: 'Press Start 2P';
+  color: white;
+  line-height: 115px;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+}
+
+.pokemon-ad-banner {
+  width: 1000px;
+  height: 1000px;
+}
+
+.exeggutor {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-side, .center {
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  border: 2px solid gray;
+}
+
+.image-holder {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-around;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1508px;
+  /* align-self: center; */
+  border-radius: 8px;
+  border: 2px solid gray;
+  box-sizing: border-box;
+  background: url("https://i.ytimg.com/vi/svLakCJlANw/maxresdefault.jpg");
+  background-size: contain;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 278px;
+  height: 100px;
+  align-self: center;
+}
+
+.left-side {
+  margin: 0px 18px 0px 10px;
+
+  border: 2px solid gray;
+  display: flex;
+  align-content: center;
+  /* justify-content: center; */
+  width: 290px;
+}
+
+.filters {
+  margin-top: 182px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
+  width: 100%;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.type, .stat {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  height: 40px;
+  width: 40%;
+  font-family: 'Press Start 2P';
+  font-size: 12px;
+  color: white;
+  text-shadow: 0 .1em 0.1em rgba(0,0,0,0.65);
+}
+
+.type:hover, .stat:hover {
+  cursor: pointer;
+}
+
+.type {
+  border-radius: 20px;
+  outline: none;
+  /* margin-right: 10px; */
+  margin-bottom: 5px;
+  border: 1.5px solid gray;
+}
+
+.stat {
+  /* background-color: antiquewhite; */
+}
+
+#all {
+  background-color: gray;
+}
+
+#bug{
+  background-color: #8e9b2f;
+}
+
+#dragon{
+  background-color: #6962d4;
+}
+
+#electric{
+  background-color: #ffe357;
+}
+
+#rock {
+  background-color: #d4bc7a;
+}
+
+#fighting {
+  background-color: #b45444;
+}
+
+#water {
+  background-color: #00b3fa;
+}
+
+#normal {
+  background-color: #c1c0b6;
+}
+
+#fire {
+  background-color: #ff5243;
+}
+
+#flying {
+  background-color: #64a9fa;
+}
+
+#ghost {
+  background-color: #7279d1;
+}
+
+#poison {
+  background-color: #a95a94;
+}
+
+#psychic {
+  background-color: #ff66b0;
+}
+
+#grass {
+  background-color: #81d762;
+}
+
+#ice {
+  background-color: #7af2fe;
+}
+
+#ground {
+  background-color: #f5ca66;
+}
+
+
+
+
+.svgContainer{
+  /* position: absolute; */
+}
+
+
+.pokedex-info{
+  background-color: rgba(66, 61, 61, 0.6);
+  /* background: url("https://ak1.picdn.net/shutterstock/videos/7347001/thumb/1.jpg?i10c=img.resize(height:160)"); */
+  position: absolute;
+  background-size: contain;
+  display: flex;
+  align-content: center;
+  color: white;
+  border-radius: 4px;
+  font-family: 'Press Start 2P';
+  text-align: center;
+  line-height: 
+}
+
+.pokedex-sprite {
+  position: relative;
+  object-fit: contain;
+  top: 5px;
+  margin-right: 5px;
+}
+
+.pokedex-info-details {
+  position: relative;
+  top: 5px;
+  font-family: 'Press Start 2P';
+  font-size: 10px;
+}
+
+@media(max-width: 767px){
+  .type {
+    font-size: 8px;
+  }
+}
+/* 
+@media(max-width: 2000px){
+  .graph {
+    width: 1500px;
+  }
+} */
+
+@media(max-width: 1800px){
+  .graph {
+    width: 1200px;
+  }
+  
+}
+
+@media(max-width: 1450px){
+  .graph {
+    width: 1100px;
+  }
+
+  .top {
+    width: 1398px;
+  }
+}
