@@ -99,10 +99,10 @@ a {
   width: 800px;
   top: 24%;
   left: 32%;
-  background: url('https://wallpaper-house.com/data/out/6/wallpaper2you_127747.png');
+  background: url('https://i.pinimg.com/originals/76/26/d7/7626d73942c01632c95e9691931166e0.jpg');
   background-size: contain;
   border: 2px solid gray;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .modal-content {
@@ -110,6 +110,7 @@ a {
   height: 100%;
   color: white;
   font-family: 'Press Start 2P';
+  border-radius: 12px;
 }
 
 .modal-container{
@@ -127,8 +128,9 @@ p {
 }
 
 .center-background {
-  background: url('https://orig14.deviantart.net/ecb9/f/2016/183/e/3/custom_box_background__rain_by_tree_kangaroo-da8gwgt.jpg');
+  background: url('https://pixteller.com/assets/storage/designs_images/2017-07-30/12/backgrounds-passion-simple-background-image-1-597da0259879d.png');
   background-size: cover;
+  border-radius: 8px;
 }
 
 .modal-button {
@@ -242,8 +244,8 @@ p {
 
 
 .pokedex-info{
-  background-color: rgba(66, 61, 61, 0.6);
-  /* background: url("https://ak1.picdn.net/shutterstock/videos/7347001/thumb/1.jpg?i10c=img.resize(height:160)"); */
+  /* background-color: rgba(66, 61, 61, 0.6); */
+  background: url("https://img00.deviantart.net/de52/i/2012/084/3/4/grid_background_by_inflationking-d4tw1da.png");
   position: absolute;
   background-size: contain;
   display: flex;
@@ -293,6 +295,6 @@ p {
   }
 
   .top {
-    width: 1398px;
+    width: 1408px;
   }
 }
