@@ -233,12 +233,12 @@
             let pokeName = pokemon.Pokemon.slice(0,1).toUpperCase() + pokemon.Pokemon.slice(1);
             let target = d3.event.target;
             
-            // if (type !== 'all') {
+            if (type !== 'all') {
               d3.select(target) 
                 .attr('r', function(d) {
                   return (d3.select(target).attr("r") * 1.2);
                 });
-            // }
+            }
 
             pokedexInfo.transition()
               .duration(100)
@@ -275,7 +275,7 @@
           //       return (d3.select(d3.event.target).attr("r") / 1.2);
           //     })
           // })
-          // if (type !== 'all') {
+          if (type !== 'all') {
             d3.selectAll('.pokemon-bubble').on('mouseout', function(d){
               let target = d3.event.target;
               
@@ -285,7 +285,7 @@
                 });
   
             })
-          // }
+          }
           
           // d3.selectAll('.pokemon-svg-container').on('click', function(){
           //   pokedexInfo.transition()
