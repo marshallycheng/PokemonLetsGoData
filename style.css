@@ -1,5 +1,5 @@
 body {
-  background: url("https://www.spriters-resource.com/resources/sheet_icons/45/48041.png");
+  background: url("https://i.imgur.com/wGISDXq.png");
   /* background-size: cover; */
   /* background-repeat: repeat-x; */
   display: flex;
@@ -55,7 +55,7 @@ a {
   border-radius: 8px;
   border: 2px solid gray;
   box-sizing: border-box;
-  background: url("https://i.ytimg.com/vi/svLakCJlANw/maxresdefault.jpg");
+  background: url("https://i.imgur.com/ecIVbyq.jpg");
   background-size: contain;
   margin-left: 10px;
   margin-bottom: 20px;
@@ -99,7 +99,7 @@ a {
   width: 800px;
   top: 24%;
   left: 32%;
-  background: url('https://i.pinimg.com/originals/76/26/d7/7626d73942c01632c95e9691931166e0.jpg');
+  background: url('https://i.imgur.com/qCpe4tK.jpg');
   background-size: contain;
   border: 2px solid gray;
   border-radius: 12px;
@@ -128,7 +128,7 @@ p {
 }
 
 .center-background {
-  background: url('https://pixteller.com/assets/storage/designs_images/2017-07-30/12/backgrounds-passion-simple-background-image-1-597da0259879d.png');
+  background: url('https://i.imgur.com/WQ1CvST.png');
   background-size: cover;
   border-radius: 8px;
 }
@@ -245,7 +245,7 @@ p {
 
 .pokedex-info{
   /* background-color: rgba(66, 61, 61, 0.6); */
-  background: url("https://img00.deviantart.net/de52/i/2012/084/3/4/grid_background_by_inflationking-d4tw1da.png");
+  background: url("https://i.imgur.com/mOTY2kU.png");
   position: absolute;
   background-size: contain;
   display: flex;
