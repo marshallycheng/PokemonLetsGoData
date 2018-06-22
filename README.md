@@ -2,7 +2,7 @@
 # PokemonLetsGoData
 [Live site](https://marshallycheng.github.io/PokemonLetsGoData/)
 
-PokemonLetsGoData is a data visualization of the first two generations of Pokemon, created with the D3.js library. I've always been a huge fan of the Pokemon series and is the video game franchise I remember most fondly from my childhood. I imagine that it's the same for many other people from my generation and this project is an opportunity for all of us to enjoy those fond memories. PokemonLetsGoData was built in about 20 hours, and I may or may not come back to this project in the future. 
+PokemonLetsGoData is a data visualization of the first two generations of Pokemon, created with the D3.js library. I've always been a huge fan of the Pokemon series and it's the video game franchise I remember most fondly from my childhood. I imagine that it's the same for many other people from my generation and this project is an opportunity for all of us to enjoy those fond memories. PokemonLetsGoData was built in about 20 hours, and I may or may not come back to this project in the future. 
 
 ![Home page](https://i.imgur.com/vYQGs0T.png)
 
