@@ -8,6 +8,26 @@ body {
   background-position: top -50px left 0px;
 }
 
+.gen-buttons {
+  margin-top: 50px;
+  width: 230px;
+  display: flex;
+  justify-content: space-around;
+  overflow: visible;
+}
+
+.gen-1-pikachu {
+  position: relative;
+  right: 8px;
+  bottom: 10px;
+}
+
+.gen-2-pichu {
+  position: relative;
+  right: 6px;
+  bottom: 8px;
+}
+
 a, .about-modal-link {
   font-family: 'Press Start 2P';
   color: white;
@@ -142,7 +162,9 @@ p {
   cursor: pointer;
 }
 
-.type, .stat {
+
+
+.type, .stat, .gen {
   display: inline-block;
   overflow: hidden;
   vertical-align: bottom;
@@ -152,6 +174,13 @@ p {
   font-size: 12px;
   color: white;
   text-shadow: 0 .1em 0.1em rgba(0,0,0,0.65);
+}
+
+.gen {
+  background: none;
+  border: none;
+  outline: none;
+  overflow: visible;
 }
 
 .type:hover, .stat:hover {
