@@ -14,18 +14,21 @@ body {
   display: flex;
   justify-content: space-around;
   overflow: visible;
+  cursor: pointer;
 }
 
 .gen-1-pikachu {
   position: relative;
   right: 8px;
   bottom: 10px;
+  cursor: pointer;
 }
 
 .gen-2-pichu {
   position: relative;
   right: 6px;
   bottom: 8px;
+  cursor: pointer;
 }
 
 a, .about-modal-link {
