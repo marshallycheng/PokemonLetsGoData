@@ -80,6 +80,9 @@ Every Pokemon has a radius and a collision detector based off its radius. Radius
  ### Webscraping
  
  Used Python, [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), and [Selenium](http://selenium-python.readthedocs.io/) to webscrape Generation 2 Pokemon data from [PokemonShowdown](https://pokemonshowdown.com/). BeautifulSoup is a Python library used for extracting data from HTML files. Selenium is a web browsing automator. I used it to navigate to the PokemonShowdown website and type pokemon names into the search bar so BS4 could scrape the necessary data.
+ 
+![Webscraping](https://i.imgur.com/5JotmlI.gif)
+ 
  ```python
 
 file = io.open("pokemon-gen-4.txt", "w+", encoding='utf8')
