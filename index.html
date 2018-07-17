@@ -242,9 +242,8 @@
               spawnPokemonBubbles('all', `${d3.event.target.value}`)
             }
           })
-          // updates radius and force collision based on selected stat.
+          // updates radius and force collision based on selected stat. alpha target and restart allows it to move again
           d3.selectAll('.stat').on('click', function(){
-            count = 20;
             svgContainer.selectAll('.pokemon-bubble')
               .attr('r', function(d) {
                 return radiusScale(d[d3.event.target.value]);
