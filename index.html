@@ -91,9 +91,9 @@
     <script>
       // separate function so can call it again with new datasets. Avoids hassle of updating dataset.
       function spawnPokemonBubbles(type = "all", gen = "1"){
-        file = "./javascripts/gen-1-pokemon-stats.csv"
+        file = "./pokemon-data/gen-1-pokemon-stats.csv"
         if (gen === "2") {
-          file = "./javascripts/gen-2-pokemon-stats.csv"
+          file = "./pokemon-data/gen-2-pokemon-stats.csv"
         }
         
         d3.csv(file, function (data) {
