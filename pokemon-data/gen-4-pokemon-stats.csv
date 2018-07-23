@@ -1,4 +1,4 @@
-Number, Pokemon, Type1, Type2, HP, Attack, Defense, Speed, Special, PNG
+Number, Pokemon, Type1, Type2, HP, Attack,Defense,Special,Speed,PNG
 387,Turtwig,GRASS,,55,68,64,45,31,https://play.pokemonshowdown.com/sprites/bw/turtwig.png
 388,Grotle,GRASS,,75,89,85,55,36,https://play.pokemonshowdown.com/sprites/bw/grotle.png
 389,Torterra,GRASS,GROUND,95,109,105,75,56,https://play.pokemonshowdown.com/sprites/bw/torterra.png
@@ -50,7 +50,7 @@ Number, Pokemon, Type1, Type2, HP, Attack, Defense, Speed, Special, PNG
 436,Bronzor,STEEL,PSYCHIC,57,24,86,24,23,https://play.pokemonshowdown.com/sprites/bw/bronzor.png
 437,Bronzong,STEEL,PSYCHIC,67,89,116,79,33,https://play.pokemonshowdown.com/sprites/bw/bronzong.png
 438,Bonsly,ROCK,,50,80,95,10,10,https://play.pokemonshowdown.com/sprites/bw/bonsly.png
-439,Mime Jr.,PSYCHIC,FAIRY,20,25,45,70,60,https://play.pokemonshowdown.com/sprites/bw/mimejr.png
+439,Mime Jr.,PSYCHIC,,20,25,45,70,60,https://play.pokemonshowdown.com/sprites/bw/mimejr.png
 440,Happiny,NORMAL,,100,5,5,15,30,https://play.pokemonshowdown.com/sprites/bw/happiny.png
 441,Chatot,NORMAL,FLYING,76,65,45,92,91,https://play.pokemonshowdown.com/sprites/bw/chatot.png
 442,Spiritomb,GHOST,DARK,50,92,108,92,35,https://play.pokemonshowdown.com/sprites/bw/spiritomb.png
@@ -79,7 +79,7 @@ Number, Pokemon, Type1, Type2, HP, Attack, Defense, Speed, Special, PNG
 465,Tangrowth,GRASS,,100,100,125,110,50,https://play.pokemonshowdown.com/sprites/bw/tangrowth.png
 466,Electivire,ELECTRIC,,75,123,67,95,95,https://play.pokemonshowdown.com/sprites/bw/electivire.png
 467,Magmortar,FIRE,,75,95,67,125,83,https://play.pokemonshowdown.com/sprites/bw/magmortar.png
-468,Togekiss,FAIRY,FLYING,85,50,95,120,80,https://play.pokemonshowdown.com/sprites/bw/togekiss.png
+468,Togekiss,NORMAL,FLYING,85,50,95,120,80,https://play.pokemonshowdown.com/sprites/bw/togekiss.png
 469,Yanmega,BUG,FLYING,86,76,86,116,95,https://play.pokemonshowdown.com/sprites/bw/yanmega.png
 470,Leafeon,GRASS,,65,110,130,60,95,https://play.pokemonshowdown.com/sprites/bw/leafeon.png
 471,Glaceon,ICE,,65,60,110,130,65,https://play.pokemonshowdown.com/sprites/bw/glaceon.png

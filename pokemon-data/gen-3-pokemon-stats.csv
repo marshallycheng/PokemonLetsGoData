@@ -1,4 +1,4 @@
-Number, Pokemon, Type1, Type2, HP, Attack, Defense, Speed, Special, PNG
+Number,Pokemon,Type1,Type2,HP,Attack,Defense,Special,Speed,PNG
 252,Treecko,GRASS,,40,45,35,65,70,https://play.pokemonshowdown.com/sprites/bw/treecko.png
 253,Grovyle,GRASS,,50,65,45,85,95,https://play.pokemonshowdown.com/sprites/bw/grovyle.png
 254,Sceptile,GRASS,,70,85,65,105,120,https://play.pokemonshowdown.com/sprites/bw/sceptile.png
@@ -27,9 +27,9 @@ Number, Pokemon, Type1, Type2, HP, Attack, Defense, Speed, Special, PNG
 277,Swellow,NORMAL,FLYING,60,85,60,75,125,https://play.pokemonshowdown.com/sprites/bw/swellow.png
 278,Wingull,WATER,FLYING,40,30,30,55,85,https://play.pokemonshowdown.com/sprites/bw/wingull.png
 279,Pelipper,WATER,FLYING,60,50,100,95,65,https://play.pokemonshowdown.com/sprites/bw/pelipper.png
-280,Ralts,PSYCHIC,FAIRY,28,25,25,45,40,https://play.pokemonshowdown.com/sprites/bw/ralts.png
-281,Kirlia,PSYCHIC,FAIRY,38,35,35,65,50,https://play.pokemonshowdown.com/sprites/bw/kirlia.png
-282,Gardevoir,PSYCHIC,FAIRY,68,65,65,125,80,https://play.pokemonshowdown.com/sprites/bw/gardevoir.png
+280,Ralts,PSYCHIC,,28,25,25,45,40,https://play.pokemonshowdown.com/sprites/bw/ralts.png
+281,Kirlia,PSYCHIC,,38,35,35,65,50,https://play.pokemonshowdown.com/sprites/bw/kirlia.png
+282,Gardevoir,PSYCHIC,,68,65,65,125,80,https://play.pokemonshowdown.com/sprites/bw/gardevoir.png
 283,Surskit,BUG,WATER,40,30,32,50,65,https://play.pokemonshowdown.com/sprites/bw/surskit.png
 284,Masquerain,BUG,FLYING,70,60,62,100,80,https://play.pokemonshowdown.com/sprites/bw/masquerain.png
 285,Shroomish,GRASS,,60,40,60,40,35,https://play.pokemonshowdown.com/sprites/bw/shroomish.png
@@ -45,12 +45,12 @@ Number, Pokemon, Type1, Type2, HP, Attack, Defense, Speed, Special, PNG
 295,Exploud,NORMAL,,104,91,63,91,68,https://play.pokemonshowdown.com/sprites/bw/exploud.png
 296,Makuhita,FIGHTING,,72,60,30,20,25,https://play.pokemonshowdown.com/sprites/bw/makuhita.png
 297,Hariyama,FIGHTING,,144,120,60,40,50,https://play.pokemonshowdown.com/sprites/bw/hariyama.png
-298,Azurill,NORMAL,FAIRY,50,20,40,20,20,https://play.pokemonshowdown.com/sprites/bw/azurill.png
+298,Azurill,NORMAL,,50,20,40,20,20,https://play.pokemonshowdown.com/sprites/bw/azurill.png
 299,Nosepass,ROCK,,30,45,135,45,30,https://play.pokemonshowdown.com/sprites/bw/nosepass.png
 300,Skitty,NORMAL,,50,45,45,35,50,https://play.pokemonshowdown.com/sprites/bw/skitty.png
 301,Delcatty,NORMAL,,70,65,65,55,90,https://play.pokemonshowdown.com/sprites/bw/delcatty.png
 302,Sableye,DARK,GHOST,50,75,75,65,50,https://play.pokemonshowdown.com/sprites/bw/sableye.png
-303,Mawile,STEEL,FAIRY,50,85,85,55,50,https://play.pokemonshowdown.com/sprites/bw/mawile.png
+303,Mawile,STEEL,,50,85,85,55,50,https://play.pokemonshowdown.com/sprites/bw/mawile.png
 304,Aron,STEEL,ROCK,50,70,100,40,30,https://play.pokemonshowdown.com/sprites/bw/aron.png
 305,Lairon,STEEL,ROCK,60,90,140,50,40,https://play.pokemonshowdown.com/sprites/bw/lairon.png
 306,Aggron,STEEL,ROCK,70,110,180,60,50,https://play.pokemonshowdown.com/sprites/bw/aggron.png
