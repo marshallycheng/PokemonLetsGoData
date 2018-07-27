@@ -73,6 +73,14 @@
                 Gen 2
                 <img class="gen-2-pichu" src="./pokemon-images/pichu.png"/>
               </button>
+              <!-- <button class="gen" id="gen-3" value="3">
+                Gen 1
+                <img class="gen-3-pikachu" src="./pokemon-images/pikachu.png" />
+              </button>
+              <button class="gen" id="gen-4" value="4">
+                Gen 1
+                <img class="gen-4-pikachu" src="./pokemon-images/pikachu.png" />
+              </button> -->
             </div>
           </div>
         </div>
@@ -198,15 +206,15 @@
               return `url(#${d.Pokemon})`;
             });
           // only update position 20 times. Otherwise, we'll lag when we have all pokemon on screen
-          let process = 1;
+          // let process = 1;
           let count = 20;
           simulation.nodes(pokemonData)
             .on('tick', function () {
               
-              if (process && count > 0) {
+              if (count > 0) {
                 ticked()
               }
-              process = 1 - process;
+              // process = 1 - process;
               count -= 1;
             });
 
