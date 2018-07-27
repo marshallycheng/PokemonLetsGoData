@@ -207,7 +207,7 @@
                 ticked()
               }
               process = 1 - process;
-              count = count - 1;
+              count -= 1;
             });
 
           // updates pokemon position after forces are applied.
@@ -235,11 +235,13 @@
               .attr('r', function(d) {
                 return radiusScale(d[d3.event.target.value]);
               });
+              // could possibly use alpha/alphaTarget instead of count in the future
+              count = 20;
             simulation
               .force("collide", d3.forceCollide(function(d){
                 return radiusScale(d[d3.event.target.value] * .9);
               }))
-              .alphaTarget(0.5)
+              .alpha(0.25)
               .restart();
           })
           // fill pokedex with info based on pokemon data
@@ -284,12 +286,7 @@
               
           })
 
-          // d3.select('g').on('mouseover', function(d){
-          //   d3.select(d3.event.target)
-          //     .attr('r', function(d) {
-          //       return (d3.select(d3.event.target).attr("r") / 1.2);
-          //     })
-          // })
+          // Bigger bubbles if fewer pokemon on screen
           if (type !== 'all') {
             d3.selectAll('.pokemon-bubble').on('mouseout', function(d){
               let target = d3.event.target;
