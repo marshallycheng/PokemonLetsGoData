@@ -71,7 +71,7 @@
               </button>
               <button class="gen" id="gen-2" value="2">
                 Gen 2
-                <img class="gen-2-pichu" src="./pokemon-images/pichu.png" />
+                <img class="gen-2-pichu" src="./pokemon-images/pichu.png"/>
               </button>
             </div>
           </div>
@@ -222,22 +222,12 @@
           }
           // runs function with new, filtered data set.
           d3.selectAll('.type').on('click', function(){
-            if (gen === '2') {
-              spawnPokemonBubbles(d3.event.target.value, "2")
-            } else {
-              spawnPokemonBubbles(d3.event.target.value)
-            }
-           
-
+            spawnPokemonBubbles(d3.event.target.value, gen)           
           })
 
           d3.selectAll('.gen').on('click', function(){
-            // not a good fix, will come back to this in the future hopefully. short on time
-            if (d3.event.target.classList[0] === "gen-2-pichu") {
-              spawnPokemonBubbles('all', `2`)
-            } else {
-              spawnPokemonBubbles('all', `${d3.event.target.value}`)
-            }
+            // Uses event bubbling to capture correct gen. Image itself doesn't have the listener, but it bubbles up
+            spawnPokemonBubbles('all', `${d3.event.currentTarget.value}`)
           })
           // updates radius and force collision based on selected stat. alpha target and restart allows it to move again
           d3.selectAll('.stat').on('click', function(){
@@ -249,7 +239,7 @@
               .force("collide", d3.forceCollide(function(d){
                 return radiusScale(d[d3.event.target.value] * .9);
               }))
-              .alphaTarget(0.25)
+              .alphaTarget(0.5)
               .restart();
           })
           // fill pokedex with info based on pokemon data
