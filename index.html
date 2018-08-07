@@ -93,6 +93,7 @@
       </div>
     </div>
     <div 'pokemon-ad-banner'>
+      <!-- media queries make it so the image only shows on larger screens, reduces empty space -->
       <img class="exeggutor"src="./pokemon-images/Exeggutor_de_Alola.png"/>
     </div>
     
@@ -163,9 +164,6 @@
           let pokedexInfoDetails = pokedexInfo.append("div")
             .attr("class", "pokedex-info-details")
             .text("Mouse over a Pokemon to select!");
-
-
-          
 
           const defs = svgContainer.append('defs')
           // turn all pokemon images into patterns that are later referenced. default setup for image fill svg
