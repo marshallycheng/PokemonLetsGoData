@@ -64,6 +64,7 @@
             <button class="stat" id="speed" value="Speed">Speed</button>
             <button class="stat" id="HP" value="HP">HP</button>
             <button class="stat" id="special" value="Special">Special</button>
+            <!-- buttons for switching between generations. could allow cross-generational data, but would likely result in lag. -->
             <div class="gen-buttons">
               <button class="gen" id="gen-1" value="1">
                 Gen 1
@@ -105,7 +106,7 @@
         d3.csv(file, function (data) {
           // Typecasting strings into numbers for later use.
           data.forEach(d => {
-            // lowercase name to match image names.
+            // lowercase name to match image names. important for later referencing.
             d.Pokemon = d.Pokemon.toLowerCase();
             d.Number = +d.Number;
             d.HP = +d.HP;
@@ -150,7 +151,7 @@
             });
 
           let pokedexInfo = graphSelection
-          // default pokedex info screen
+          // default pokedex info screen. fixed position to always display, even if screen size shrinks.
             .append("div")
             .attr("class", "pokedex-info")
             .style("height", '130px')
@@ -226,7 +227,7 @@
                 return d.y
               })
           }
-          // runs function with new, filtered data set.
+          // runs function with new, filtered data set. 
           d3.selectAll('.type').on('click', function(){
             spawnPokemonBubbles(d3.event.target.value, gen)           
           })
@@ -272,14 +273,14 @@
               .style("width", "230px")
               .style("left", "48px")
               .style("top", "171px");
-
+            // moving pokemon image
             pokedexSprite
               .style("height", '100px')
               .style("width", '100px')
               .attr('src', () => {
                 return `${pokemon.GIF}`;
               });
-
+            // pokedex info text
             pokedexInfoDetails
               .html(
                 pokeName + "<br/><br/>" +
