@@ -1,0 +1,2 @@
+Number, Pokemon, Type1, Type2, HP, Attack, Defense, Speed, Special, PNG
+251,Celebi,PSYCHIC,GRASS,100,100,100,100,100,https://play.pokemonshowdown.com/sprites/bw/celebi.png
