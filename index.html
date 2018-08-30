@@ -184,11 +184,12 @@
             .attr("preserveAspectRatio", "none")
             .attr("xmlns:xlink", "http://www.w3.org/1999/xlink")
             .attr("xlink:href", function (d) { 
-              return `./pokemon-images/${d.Pokemon}.png`;
+              // return `./pokemon-images/${d.Pokemon}.png`;
+              return `${d.PNG}`;
             });
           // defaulted to center of screen, but leaving forces here in case want to change later. collision is based off of bubble radius
           const simulation = d3.forceSimulation()
-            .force("x", d3.forceX().strength(.00000))
+            .force("x", d3.forceX().strength(.000))
             .force("y", d3.forceY().strength(.000))
             .force("collide", d3.forceCollide(function (d) {
               return radiusScale(d.Attack * .9);
